@@ -1,0 +1,31 @@
+{
+    "presets": [["next/babel"]],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["./"],
+          "alias": {
+            "@shared": "./shared",
+            "@components": "./components",
+            "@api": "./api",
+            "@models": "./models",
+            "@screens": "./screens",
+            "@hooks": "./hooks",
+            "@services": "./services",
+            "@constants": "./constants",
+            "@context": "./context",
+            "@queries": "./queries",
+            "@data": "./data",
+            "@typeDefs": "./types",
+            "@generated": "./generated",
+            "@utils": "./utils",
+            "@public": "./public",
+            "@styles": "./styles",
+            "@state": "./state",
+            "@lib": "./lib"
+          }
+        }
+      ]
+    ]
+  }
