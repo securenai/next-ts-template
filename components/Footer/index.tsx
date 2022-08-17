@@ -2,7 +2,7 @@ interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = () => {
 	return (
-		<footer className="text-gray-600 bg-orange-100 body-font">
+		<footer className="text-gray-600 bg-gradient-to-r from-teal-50 to-orange-100 body-font">
 			<div className="container flex flex-col px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap flexWrap">
 				<div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:textLeft">
 					<a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">

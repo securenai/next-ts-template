@@ -2,7 +2,7 @@ interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => {
 	return (
-		<header className="text-gray-600 bg-orange-100 body-font">
+		<header className="sticky top-0 text-gray-600 bg-gradient-to-r from-teal-50 to-orange-100 body-font">
 			<div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
 				<a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
 					<svg
